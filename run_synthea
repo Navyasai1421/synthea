@@ -22,5 +22,6 @@ else
   done
 
   ./gradlew run -Params="[$SYNTHEA_ARGS]"
-fi
+fi ./gradlew build check test
+
 
